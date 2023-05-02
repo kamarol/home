@@ -37,7 +37,7 @@ DefaultContentLanguageInSubdir = true
 
 [params]
   # Enable the darkmode toggle in header
-  darkModeToggle = true
+  darkModeToggle = false
 
   # Enable search in header
   enableSearch = true
@@ -57,7 +57,7 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
+  copyright = ""
   favicon = "/favicon.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
