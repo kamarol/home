@@ -1,6 +1,6 @@
 baseurl = "https://blist.vercel.app"
 metaDataFormat = "yaml"
-title = "Blist Multilingual Theme"
+title = "Kamarol Zaman"
 theme = "blist"
 
 DefaultContentLanguage = "en"
@@ -11,8 +11,8 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Hey! I'm Katheryn Fox"
-      introSubtitle = "26 y/o junior developer who enjoys social card games, blogging and painting"
+      introTitle = "Hey! I'm Kamarol Zaman"
+      introSubtitle = "Software developer who enjoys blogging about their coding, and life adventures."
       introPhoto = "/picture.jpg"
       logo = "/blist-logo.png"
     [[languages.en.menu.main]]
@@ -20,80 +20,25 @@ DefaultContentLanguageInSubdir = true
         url = "blog"
         weight = 1
 
-    [[languages.en.menu.main]]
-        name = "About"
-        url = "page/about/"
-        weight = 2
+#    [[languages.en.menu.main]]
+#        name = "About"
+#        url = "page/about/"
+#        weight = 2
 
-    [[languages.en.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
+#    [[languages.en.menu.main]]
+#        name = "Tags"
+#        url = "tags"
+#        weight = 3
 
-    [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
-
-  [languages.de]
-    contentDir = "content/de" # Deutsch
-    weight = 2
-    languageName = "Deutsch"
-    title = "Blist (mehrsprachig)"
-    description = "Modernes Blog-Theme für Ihre Hugo-Site."
-    [languages.de.params]
-      introTitle = "Hallo, ich bin Katheryn Fox"
-      introSubtitle = "26-jährige Junior-Entwicklerin, die Spaß an sozialen Kartenspielen, Bloggen und Malen hat"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo-de.png"
-    [[languages.de.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
-
-    [[languages.de.menu.main]]
-        name = "Über mich"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.de.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-        
-  [languages.fr]
-    contentDir = "content/fr" #French
-    weight = 1
-    languageName = "Français"
-    [languages.fr.params]
-      introTitle = "Salut! Je suis Katheryn Fox"
-      introSubtitle = "Développeuse junior de 26 ans qui adore les jeux de société, le blogging et la peinture"
-      introPhoto = "/picture.jpg"
-      logo = "/blist-logo.png"
-    [[languages.fr.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
-
-    [[languages.fr.menu.main]]
-        name = "À propos"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.fr.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-        
-  [languages.dy]
-    contentDir = "content/dy" #Example language
-    weight = 3
-    languageName = "Test Language"
+#    [[languages.en.menu.main]]
+#        name = "Top Post"
+#        url = "/en/blog/emoji-support/"
+#        weight = 4
 
 [params]
   # Enable the darkmode toggle in header
   darkModeToggle = true
-  
+
   # Enable search in header
   enableSearch = true
 
@@ -166,62 +111,59 @@ DefaultContentLanguageInSubdir = true
 [params.homepage.social]
   # Global params common for both languages
   title = "Follow me"
-  description = "I work on everything coding and tweet developer memes"
+  description = "To stay up to date for my latest shenanigans."
 
-  [[params.homepage.social.icons]]
-    website = "twitter"
-    url = "https://twitter.com/"
+#  [[params.homepage.social.icons]]
+#    website = "twitter"
+#    url = "https://twitter.com/"
   [[params.homepage.social.icons]]
     website = "linkedin"
-    url = "https://linkedin.com/in/"
-  [[params.homepage.social.icons]]
-    website = "xing"
-    url = "https://www.xing.com/profile/"
+    url = "https://www.linkedin.com/in/kamarol-zaman/"
   [[params.homepage.social.icons]]
     website = "telegram"
-    url = "https://t.me/"
+    url = "https://t.me/kamarolzaman96"
   [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "buymeacoffee"
-    url = "https://www.buymeacoffee.com/"
-  [[params.homepage.social.icons]]
-    website = "medium"
-    url = "https://medium.com/"
-  [[params.homepage.social.icons]]
-    website = "reddit"
-    url = "https://reddit.com/"
-  [[params.homepage.social.icons]]
-    website = "dribbble"
-    url = "https://dribbble.com/"
-  [[params.homepage.social.icons]]
-    website = "stackoverflow"
-    url = "https://stackoverflow.com/"
-  [[params.homepage.social.icons]]
-    website = "xda"
-    url = "https://forum.xda-developers.com/"
-  [[params.homepage.social.icons]]
-    website = "tiktok"
-    url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
-  [[params.homepage.social.icons]]
-    website = "youtube"
-    url = "https://youtube.com"
+    url = "https://github.com/kamarol"
+#  [[params.homepage.social.icons]]
+#    website = "buymeacoffee"
+#    url = "https://www.buymeacoffee.com/"
+#  [[params.homepage.social.icons]]
+#    website = "medium"
+#    url = "https://medium.com/"
+#  [[params.homepage.social.icons]]
+#    website = "reddit"
+#    url = "https://reddit.com/"
+#  [[params.homepage.social.icons]]
+#    website = "dribbble"
+#    url = "https://dribbble.com/"
+#  [[params.homepage.social.icons]]
+#    website = "stackoverflow"
+#    url = "https://stackoverflow.com/"
+#  [[params.homepage.social.icons]]
+#    website = "xda"
+#    url = "https://forum.xda-developers.com/"
+#  [[params.homepage.social.icons]]
+#    website = "tiktok"
+#    url = "https://tiktok.com"
+#  [[params.homepage.social.icons]]
+#    website = "googlescholar"
+#    url = "https://scholar.google.com/"
+#  [[params.homepage.social.icons]]
+#    website = "mastodon"
+#    url = "https://joinmastodon.org"
+#  [[params.homepage.social.icons]]
+#    website = "youtube"
+#    url = "https://youtube.com"
   [[params.homepage.social.icons]]
     website = "instagram"
-    url = "https://instagram.com"
-  [[params.homepage.social.icons]]
-    website = "facebook"
-    url = "https://facebook.com"
-  [[params.homepage.social.icons]]
-    website = "behance"
-    url = "https://behance.net"
+    url = "https://www.instagram.com/kamarolazhar/"
+#  [[params.homepage.social.icons]]
+#    website = "facebook"
+#    url = "https://facebook.com"
+#  [[params.homepage.social.icons]]
+#    website = "behance"
+#    url = "https://behance.net"
 
 [[menu.main]]
   name = "About"
